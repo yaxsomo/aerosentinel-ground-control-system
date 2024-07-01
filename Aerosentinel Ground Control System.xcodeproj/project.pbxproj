@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		36C663C92C333BD200FE08B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C663C82C333BD200FE08B4 /* AppDelegate.swift */; };
+		36C663CB2C333BD200FE08B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C663CA2C333BD200FE08B4 /* ViewController.swift */; };
+		36C663CD2C333BD400FE08B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36C663CC2C333BD400FE08B4 /* Assets.xcassets */; };
+		36C663D02C333BD400FE08B4 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 36C663CF2C333BD400FE08B4 /* Base */; };
+		36C663DB2C333BD400FE08B4 /* Aerosentinel_Ground_Control_SystemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C663DA2C333BD400FE08B4 /* Aerosentinel_Ground_Control_SystemTests.swift */; };
+		36C663E52C333BD400FE08B4 /* Aerosentinel_Ground_Control_SystemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C663E42C333BD400FE08B4 /* Aerosentinel_Ground_Control_SystemUITests.swift */; };
+		36C663E72C333BD400FE08B4 /* Aerosentinel_Ground_Control_SystemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36C663E62C333BD400FE08B4 /* Aerosentinel_Ground_Control_SystemUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36C663D72C333BD400FE08B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36C663BD2C333BD200FE08B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36C663C42C333BD200FE08B4;
+			remoteInfo = "Aerosentinel Ground Control System";
+		};
+		36C663E12C333BD400FE08B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36C663BD2C333BD200FE08B4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36C663C42C333BD200FE08B4;
+			remoteInfo = "Aerosentinel Ground Control System";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		36C663C52C333BD200FE08B4 /* Aerosentinel Ground Control System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aerosentinel Ground Control System.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C663C82C333BD200FE08B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		36C663CA2C333BD200FE08B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		36C663CC2C333BD400FE08B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		36C663CF2C333BD400FE08B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		36C663D12C333BD400FE08B4 /* Aerosentinel_Ground_Control_System.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aerosentinel_Ground_Control_System.entitlements; sourceTree = "<group>"; };
+		36C663D62C333BD400FE08B4 /* Aerosentinel Ground Control SystemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aerosentinel Ground Control SystemTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C663DA2C333BD400FE08B4 /* Aerosentinel_Ground_Control_SystemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aerosentinel_Ground_Control_SystemTests.swift; sourceTree = "<group>"; };
+		36C663E02C333BD400FE08B4 /* Aerosentinel Ground Control SystemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aerosentinel Ground Control SystemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36C663E42C333BD400FE08B4 /* Aerosentinel_Ground_Control_SystemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aerosentinel_Ground_Control_SystemUITests.swift; sourceTree = "<group>"; };
+		36C663E62C333BD400FE08B4 /* Aerosentinel_Ground_Control_SystemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aerosentinel_Ground_Control_SystemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		36C663C22C333BD200FE08B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C663D32C333BD400FE08B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C663DD2C333BD400FE08B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36C663BC2C333BD200FE08B4 = {
+			isa = PBXGroup;
+			children = (
+				36C663C72C333BD200FE08B4 /* Aerosentinel Ground Control System */,
+				36C663D92C333BD400FE08B4 /* Aerosentinel Ground Control SystemTests */,
+				36C663E32C333BD400FE08B4 /* Aerosentinel Ground Control SystemUITests */,
+				36C663C62C333BD200FE08B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		36C663C62C333BD200FE08B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				36C663C52C333BD200FE08B4 /* Aerosentinel Ground Control System.app */,
+				36C663D62C333BD400FE08B4 /* Aerosentinel Ground Control SystemTests.xctest */,
+				36C663E02C333BD400FE08B4 /* Aerosentinel Ground Control SystemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36C663C72C333BD200FE08B4 /* Aerosentinel Ground Control System */ = {
+			isa = PBXGroup;
+			children = (
+				36C663C82C333BD200FE08B4 /* AppDelegate.swift */,
+				36C663CA2C333BD200FE08B4 /* ViewController.swift */,
+				36C663CC2C333BD400FE08B4 /* Assets.xcassets */,
+				36C663CE2C333BD400FE08B4 /* Main.storyboard */,
+				36C663D12C333BD400FE08B4 /* Aerosentinel_Ground_Control_System.entitlements */,
+			);
+			path = "Aerosentinel Ground Control System";
+			sourceTree = "<group>";
+		};
+		36C663D92C333BD400FE08B4 /* Aerosentinel Ground Control SystemTests */ = {
+			isa = PBXGroup;
+			children = (
+				36C663DA2C333BD400FE08B4 /* Aerosentinel_Ground_Control_SystemTests.swift */,
+			);
+			path = "Aerosentinel Ground Control SystemTests";
+			sourceTree = "<group>";
+		};
+		36C663E32C333BD400FE08B4 /* Aerosentinel Ground Control SystemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				36C663E42C333BD400FE08B4 /* Aerosentinel_Ground_Control_SystemUITests.swift */,
+				36C663E62C333BD400FE08B4 /* Aerosentinel_Ground_Control_SystemUITestsLaunchTests.swift */,
+			);
+			path = "Aerosentinel Ground Control SystemUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36C663C42C333BD200FE08B4 /* Aerosentinel Ground Control System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C663EA2C333BD400FE08B4 /* Build configuration list for PBXNativeTarget "Aerosentinel Ground Control System" */;
+			buildPhases = (
+				36C663C12C333BD200FE08B4 /* Sources */,
+				36C663C22C333BD200FE08B4 /* Frameworks */,
+				36C663C32C333BD200FE08B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Aerosentinel Ground Control System";
+			productName = "Aerosentinel Ground Control System";
+			productReference = 36C663C52C333BD200FE08B4 /* Aerosentinel Ground Control System.app */;
+			productType = "com.apple.product-type.application";
+		};
+		36C663D52C333BD400FE08B4 /* Aerosentinel Ground Control SystemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C663ED2C333BD400FE08B4 /* Build configuration list for PBXNativeTarget "Aerosentinel Ground Control SystemTests" */;
+			buildPhases = (
+				36C663D22C333BD400FE08B4 /* Sources */,
+				36C663D32C333BD400FE08B4 /* Frameworks */,
+				36C663D42C333BD400FE08B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36C663D82C333BD400FE08B4 /* PBXTargetDependency */,
+			);
+			name = "Aerosentinel Ground Control SystemTests";
+			productName = "Aerosentinel Ground Control SystemTests";
+			productReference = 36C663D62C333BD400FE08B4 /* Aerosentinel Ground Control SystemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		36C663DF2C333BD400FE08B4 /* Aerosentinel Ground Control SystemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36C663F02C333BD400FE08B4 /* Build configuration list for PBXNativeTarget "Aerosentinel Ground Control SystemUITests" */;
+			buildPhases = (
+				36C663DC2C333BD400FE08B4 /* Sources */,
+				36C663DD2C333BD400FE08B4 /* Frameworks */,
+				36C663DE2C333BD400FE08B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36C663E22C333BD400FE08B4 /* PBXTargetDependency */,
+			);
+			name = "Aerosentinel Ground Control SystemUITests";
+			productName = "Aerosentinel Ground Control SystemUITests";
+			productReference = 36C663E02C333BD400FE08B4 /* Aerosentinel Ground Control SystemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		36C663BD2C333BD200FE08B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					36C663C42C333BD200FE08B4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					36C663D52C333BD400FE08B4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 36C663C42C333BD200FE08B4;
+					};
+					36C663DF2C333BD400FE08B4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 36C663C42C333BD200FE08B4;
+					};
+				};
+			};
+			buildConfigurationList = 36C663C02C333BD200FE08B4 /* Build configuration list for PBXProject "Aerosentinel Ground Control System" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 36C663BC2C333BD200FE08B4;
+			productRefGroup = 36C663C62C333BD200FE08B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36C663C42C333BD200FE08B4 /* Aerosentinel Ground Control System */,
+				36C663D52C333BD400FE08B4 /* Aerosentinel Ground Control SystemTests */,
+				36C663DF2C333BD400FE08B4 /* Aerosentinel Ground Control SystemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		36C663C32C333BD200FE08B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C663CD2C333BD400FE08B4 /* Assets.xcassets in Resources */,
+				36C663D02C333BD400FE08B4 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C663D42C333BD400FE08B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C663DE2C333BD400FE08B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		36C663C12C333BD200FE08B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C663CB2C333BD200FE08B4 /* ViewController.swift in Sources */,
+				36C663C92C333BD200FE08B4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C663D22C333BD400FE08B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C663DB2C333BD400FE08B4 /* Aerosentinel_Ground_Control_SystemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C663DC2C333BD400FE08B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36C663E52C333BD400FE08B4 /* Aerosentinel_Ground_Control_SystemUITests.swift in Sources */,
+				36C663E72C333BD400FE08B4 /* Aerosentinel_Ground_Control_SystemUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		36C663D82C333BD400FE08B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36C663C42C333BD200FE08B4 /* Aerosentinel Ground Control System */;
+			targetProxy = 36C663D72C333BD400FE08B4 /* PBXContainerItemProxy */;
+		};
+		36C663E22C333BD400FE08B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36C663C42C333BD200FE08B4 /* Aerosentinel Ground Control System */;
+			targetProxy = 36C663E12C333BD400FE08B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		36C663CE2C333BD400FE08B4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				36C663CF2C333BD400FE08B4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		36C663E82C333BD400FE08B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		36C663E92C333BD400FE08B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		36C663EB2C333BD400FE08B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Aerosentinel Ground Control System/Aerosentinel_Ground_Control_System.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3H883VYNZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aerosentinel.Aerosentinel-Ground-Control-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		36C663EC2C333BD400FE08B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Aerosentinel Ground Control System/Aerosentinel_Ground_Control_System.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3H883VYNZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aerosentinel.Aerosentinel-Ground-Control-System";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		36C663EE2C333BD400FE08B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3H883VYNZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aerosentinel.Aerosentinel-Ground-Control-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aerosentinel Ground Control System.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aerosentinel Ground Control System";
+			};
+			name = Debug;
+		};
+		36C663EF2C333BD400FE08B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3H883VYNZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aerosentinel.Aerosentinel-Ground-Control-SystemTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aerosentinel Ground Control System.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Aerosentinel Ground Control System";
+			};
+			name = Release;
+		};
+		36C663F12C333BD400FE08B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3H883VYNZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aerosentinel.Aerosentinel-Ground-Control-SystemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Aerosentinel Ground Control System";
+			};
+			name = Debug;
+		};
+		36C663F22C333BD400FE08B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S3H883VYNZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Aerosentinel.Aerosentinel-Ground-Control-SystemUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Aerosentinel Ground Control System";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36C663C02C333BD200FE08B4 /* Build configuration list for PBXProject "Aerosentinel Ground Control System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C663E82C333BD400FE08B4 /* Debug */,
+				36C663E92C333BD400FE08B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C663EA2C333BD400FE08B4 /* Build configuration list for PBXNativeTarget "Aerosentinel Ground Control System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C663EB2C333BD400FE08B4 /* Debug */,
+				36C663EC2C333BD400FE08B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C663ED2C333BD400FE08B4 /* Build configuration list for PBXNativeTarget "Aerosentinel Ground Control SystemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C663EE2C333BD400FE08B4 /* Debug */,
+				36C663EF2C333BD400FE08B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36C663F02C333BD400FE08B4 /* Build configuration list for PBXNativeTarget "Aerosentinel Ground Control SystemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36C663F12C333BD400FE08B4 /* Debug */,
+				36C663F22C333BD400FE08B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 36C663BD2C333BD200FE08B4 /* Project object */;
+}
