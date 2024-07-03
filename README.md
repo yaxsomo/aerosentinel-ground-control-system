@@ -44,6 +44,6 @@ To ask for any information, feel free to contact me=
 
 ## License
 
-You can check the MIT Licence [here](LICENCE).
+You can check the MIT Licence [here](LICENSE).
 
 
