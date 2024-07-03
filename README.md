@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="" alt="{Aerosentinel GCS Logo Here}">
+  <img src="https://github.com/yaxsomo/aerosentinel-ground-control-system/assets/71334330/0de61b2e-3289-4bee-9e34-4f5e5dd3c361" alt="{Aerosentinel GCS Logo Here}">
 </p>
 
 #
